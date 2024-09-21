@@ -1,0 +1,154 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: white; 
+  color: rgb(13, 8, 72)
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  background-color: #050c2a; 
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.logo svg {
+  margin-right: 10px;
+  fill: blue; 
+}
+
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav li {
+  margin-right: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white; 
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: blue; 
+}
+
+
+.get-started-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main {
+  width: 90%;
+}
+
+
+.quote-section {
+  background-color: white; 
+  padding: 20px;
+}
+
+.quote {
+  background-color: rgb(33, 31, 52); 
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.quote-text {
+  color: white; 
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+.quote-author {
+  font-style: italic;
+  margin-top: 10px;
+  text-align: right;
+  color: white;
+}
+
+   /* idhar se apna footer start hai */
+
+
+.footer {
+  background-color: white;
+  color: rgb(128, 118, 118);
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 50px;
+}
+
+
+.footer-top {
+  margin-bottom: 20px;
+}
+
+.footer h2 {
+  margin: 0;
+  font-size: 2rem;
+  color:  rgb(13, 8, 72);
+}
+
+.footer-text {
+  margin: 10px 0;
+}
+
+.footer-links {
+  margin: 20px 0;
+}
+
+.footer-links a {
+  color: rgb(128, 118, 118);
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #007bff; /* Hover color for links */
+}
+
+.footer-socials {
+  margin-top: 30px;
+}
+
+.footer-socials a {
+  color: rgb(128, 118, 118);
+  font-size: 1.5rem;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.footer-socials a:hover {
+  color: #007bff; /* Hover color for social media icons */
+}
+
+/* Optional: FontAwesome icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
