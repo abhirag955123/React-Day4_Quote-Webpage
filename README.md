@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+--GeekFoods--
+GeekFoods is a React-based web application that displays famous food-related quotes. It includes a clean, minimalistic layout with a responsive navbar, a collection of inspiring quotes, and a well-designed footer containing useful links and social media icons.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of Contents
+--Demo
+--Features
+--Technologies Used
+--Folder Structure
 
-## Available Scripts
 
-In the project directory, you can run:
+  --Demo--
+You can check out the live demo of the application here: https://react-day4-quote-webpage.vercel.app/
 
-### `npm start`
+  --Features--
+Responsive Navbar: Contains links to various sections like Home, Quote, Restaurants, Foods, and Contact.
+Dynamic Quotes Section: Displays a collection of food-related quotes, each inside its own div, with white text on a light black background.
+Styled Footer: Includes website name, informational text, navigation links, and social media icons.
+Hover Effects: Navbar text changes to blue when hovered.
+Responsive Design: Adjusts well to different screen sizes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  --Technologies Used--
+React.js: For building user interfaces.
+CSS: For styling the webpage.
+FontAwesome: For social media icons in the footer.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ --Folder Structure--
 
-### `npm run build`
+  geekfoods/
+│
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   └── Quote.js           # The main React component for displaying quotes
+│   ├── styles/
+│   │   └── quote.css          # CSS file for styling
+│   ├── App.js                 # Main application file
+│   └── index.js               # Application entry point
+└── package.json
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
