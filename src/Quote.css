@@ -132,7 +132,7 @@
 }
 
 .footer-links a:hover {
-  color: #007bff; /* Hover color for links */
+  color: #007bff; 
 }
 
 .footer-socials {
@@ -147,7 +147,7 @@
 }
 
 .footer-socials a:hover {
-  color: #007bff; /* Hover color for social media icons */
+  color: #007bff; 
 }
 
 /* Optional: FontAwesome icons */
